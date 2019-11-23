@@ -2,6 +2,13 @@ print("A. Text to Morse Code")
 print("B. Text to Binary Code")
 option = input("Select an option ")
 
+while option != "A" and option != "B":
+    print("A. Text to Morse Code")
+    print("B. Text to Binary Code")
+    option = input("Select an option ")
+    
+
+
 if option == "A":
     text = input("Enter Text ")
     for x in text:
