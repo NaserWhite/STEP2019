@@ -1,6 +1,5 @@
 print("A. Text to Morse Code")
 print("B. Text to Binary Code")
-print("C. Text to Morse Code to Binary Code")
 option = input("Select an option ")
 
 if option == "A":
@@ -122,42 +121,74 @@ if option == "B":
         if x == "i":
             print("01101001", end = "")
         if x == "J":
-            print("01000001", end = "")
+            print("01001010", end = "")
         if x == "j":
-            print("", end = "")
+            print("01101010", end = "")
         if x == "K":
-            print("01000001", end = "")
+            print("01001011", end = "")
         if x == "k":
-            print("", end = "")
+            print("01101011", end = "")
         if x == "L":
-            print("01000001", end = "")
+            print("01001100", end = "")
         if x == "l":
-            print("", end = "")
+            print("01101100", end = "")
         if x == "M":
-            print("01000001", end = "")
+            print("01001101", end = "")
         if x == "m":
-            print("", end = "")
+            print("01101101", end = "")
         if x == "N":
-            print("01000001", end = "")
+            print("01001110", end = "")
         if x == "n":
-            print("", end = "")
+            print("01101110", end = "")
         if x == "O":
-            print("01000001", end = "")
+            print("01001111", end = "")
         if x == "o":
-            print("", end = "")
+            print("01101111", end = "")
         if x == "P":
-            print("01000001", end = "")
+            print("01010000", end = "")
         if x == "p":
-            print("", end = "")
+            print("01110000", end = "")
         if x == "Q":
-            print("01000001", end = "")
+            print("01010001", end = "")
         if x == "q":
-            print("", end = "")
+            print("01110001", end = "")
         if x == "R":
-            print("01000001", end = "")
+            print("01010010", end = "")
         if x == "r":
-            print("", end = "")
-
-
-if option == "C":
-    text = input("Enter Text ")
+            print("01110010", end = "")
+        if x == "S":
+            print("01010011", end = "")
+        if x == "s":
+            print("01110011", end = "")
+        if x == "T":
+            print("01010100", end = "")
+        if x == "t":
+            print("01110100", end = "")
+        if x == "U":
+            print("01010101", end = "")
+        if x == "u":
+            print("01110101", end = "")
+        if x == "V":
+            print("01010110", end = "")
+        if x == "v":
+            print("01110110", end = "")
+        if x == "W":
+            print("01010111", end = "")
+        if x == "w":
+            print("01110111", end = "")
+        if x == "X":
+            print("01011000", end = "")
+        if x == "x":
+            print("01111000", end = "")
+        if x == "Y":
+            print("01011001", end = "")
+        if x == "y":
+            print("01111001", end = "")
+        if x == "Z":
+            print("01011010", end = "")
+        if x == "z":
+            print("01111010", end = "")
+        if x == " ":
+            print("00100000", end = "")
+        if x == ".":
+            print("101110", end = "")
